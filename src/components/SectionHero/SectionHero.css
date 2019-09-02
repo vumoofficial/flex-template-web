@@ -72,7 +72,7 @@
 
 .heroMainTitle {
   @apply --marketplaceHeroTitleFontStyles;
-  color: var(--matterColorDark);
+  color: var(--matterColorLight);
 
   @apply --SectionHero_animation;
   animation-delay: 0.5s;
