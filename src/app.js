@@ -18,7 +18,6 @@ import routeConfiguration from './routeConfiguration';
 import Routes from './Routes';
 import config from './config';
 import localeData from 'react-intl/locale-data/sv';
-import 'moment/locale/sv';
 
 // Flex template application uses English translations as default.
 import defaultMessages from './translations/en.json';
@@ -37,6 +36,7 @@ import defaultMessages from './translations/en.json';
 // If you are using a non-english locale with moment library,
 // you should also import time specific formatting rules for that locale
 // e.g. for French: import 'moment/locale/fr';
+import 'moment/locale/sv';
 
 // Step 3:
 // If you are using a non-english locale, point `messagesInLocale` to correct .json file
