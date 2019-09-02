@@ -4,7 +4,7 @@ import classNames from 'classnames';
 
 import config from '../../config';
 import IconLogo from './IconLogo';
-import LogoImage from './goer-logo.png';
+import LogoImage from './goer-logo.svg';
 import css from './Logo.css';
 
 const Logo = props => {
