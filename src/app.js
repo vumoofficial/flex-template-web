@@ -19,7 +19,6 @@ import Routes from './Routes';
 import config from './config';
 import localeData from 'react-intl/locale-data/sv';
 import 'moment/locale/sv';
-import messagesInLocale from './translations/sv.json';
 import messages from '../translations/sv.json';
 
 // Flex template application uses English translations as default.
@@ -42,7 +41,7 @@ import defaultMessages from './translations/en.json';
 
 // Step 3:
 // If you are using a non-english locale, point `messagesInLocale` to correct .json file
-import messagesInLocale from './translations/fr.json';
+import messagesInLocale from './translations/sv.json';
 
 // If translation key is missing from `messagesInLocale` (e.g. fr.json),
 // corresponding key will be added to messages from `defaultMessages` (en.json)
