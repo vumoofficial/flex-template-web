@@ -11,7 +11,7 @@ import {
 } from '../../components';
 
 import css from './HelpPage.css';
-import image from './path/to/image.png';
+import image from './path/to/help.jpg';
 
 const HelpPage = () => {
   return (
