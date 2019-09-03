@@ -17,7 +17,7 @@ exports[`SectionHero matches snapshot 1`] = `
     </h2>
     <a
       className=""
-      href="/s?address=Finland&bounds=70.0922932%2C31.5870999%2C59.693623%2C20.456500199999937"
+      href="/s?bounds=72.42468368%2C40.229%2C50.55555664%2C-2.60981769&mapSearch=true"
       onClick={[Function]}
       style={Object {}}
       title={null}
