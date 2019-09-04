@@ -35,6 +35,10 @@ export const amenities = [
     key: 'own_food_allowed',
     label: 'Own food allowed',
   },
+  {
+    key: 'air-conditioning',
+    label: 'Air Conditioning',
+  },
 ];
 
 export const categories = [
