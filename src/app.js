@@ -17,10 +17,9 @@ import configureStore from './store';
 import routeConfiguration from './routeConfiguration';
 import Routes from './Routes';
 import config from './config';
-import localeData from 'react-intl/locale-data/sv';
 
 // Flex template application uses English translations as default.
-import defaultMessages from './translations/sv.json';
+import defaultMessages from './translations/en.json';
 
 // If you want to change the language, change the imports to match the wanted locale:
 //   1) Change the language in the config.js file!
@@ -39,7 +38,7 @@ import defaultMessages from './translations/sv.json';
 
 // Step 3:
 // If you are using a non-english locale, point `messagesInLocale` to correct .json file
-import messagesInLocale from './translations/sv.json';
+import messagesInLocale from './translations/en.json';
 
 // If translation key is missing from `messagesInLocale` (e.g. fr.json),
 // corresponding key will be added to messages from `defaultMessages` (en.json)
@@ -57,7 +56,7 @@ const addMissingTranslations = (sourceLangTranslations, targetLangTranslations) 
   return missingKeys.reduce(addMissingTranslation, targetLangTranslations);
 };
 
-const isDefaultLanguageInUse = config.locale === 'sv';
+const isDefaultLanguageInUse = config.locale === 'en';
 
 const messages = isDefaultLanguageInUse
   ? defaultMessages
