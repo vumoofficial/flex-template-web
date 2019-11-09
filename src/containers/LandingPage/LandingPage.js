@@ -72,6 +72,11 @@ export const LandingPageComponent = props => {
                 <SectionHowItWorks />
               </div>
             </li>
+            <li className={css.section}>
+              <div className={css.sectionContent}>
+                <CustomBecomeHost />
+              </div>
+            </li>
           </ul>
         </LayoutWrapperMain>
         <LayoutWrapperFooter>
